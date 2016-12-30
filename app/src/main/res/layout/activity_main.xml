@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:titlebar="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.luck.publictitlebar.MainActivity">
+
+    <com.luck.publictitlebar.PublicTitleBar
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        titlebar:leftTextColor="@color/white"
+        titlebar:left_display="true"
+        titlebar:rightRes="@mipmap/camera_1x"
+        titlebar:rightText="保存"
+        titlebar:rightTextColor="@color/white"
+        titlebar:right_display="true"
+        titlebar:titleBarBackground="@color/colorPrimary"
+        titlebar:titleBarHeight="48dp"
+        titlebar:titleText="个人中心" />
+</RelativeLayout>
